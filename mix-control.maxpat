@@ -69,8 +69,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 514.0, 131.0, 121.0, 22.0 ],
-					"text" : "scale 0. 127. -70. 30."
+					"patching_rect" : [ 514.0, 131.0, 114.0, 22.0 ],
+					"text" : "scale 0. 127. -70. 3."
 				}
 
 			}
@@ -156,8 +156,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 364.0, 131.0, 121.0, 22.0 ],
-					"text" : "scale 0. 127. -70. 30."
+					"patching_rect" : [ 364.0, 131.0, 114.0, 22.0 ],
+					"text" : "scale 0. 127. -70. 3."
 				}
 
 			}
@@ -168,8 +168,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.0, 131.0, 121.0, 22.0 ],
-					"text" : "scale 0. 127. -70. 30."
+					"patching_rect" : [ 196.0, 131.0, 114.0, 22.0 ],
+					"text" : "scale 0. 127. -70. 3."
 				}
 
 			}
@@ -180,8 +180,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 131.0, 121.0, 22.0 ],
-					"text" : "scale 0. 127. -70. 30."
+					"patching_rect" : [ 34.0, 131.0, 114.0, 22.0 ],
+					"text" : "scale 0. 127. -70. 3."
 				}
 
 			}
@@ -364,6 +364,7 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -372,8 +373,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.5
 					}
-,
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -383,8 +383,8 @@
 				"name" : "tap-dark",
 				"default" : 				{
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
 ,
