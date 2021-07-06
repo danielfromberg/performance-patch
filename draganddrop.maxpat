@@ -185,7 +185,6 @@
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
@@ -193,7 +192,8 @@
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[17]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 30.0
+							"parameter_mmax" : 30.0,
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -220,7 +220,6 @@
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
@@ -228,7 +227,8 @@
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[7]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 30.0
+							"parameter_mmax" : 30.0,
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -7098,7 +7098,6 @@
 , 											{
 												"name" : "style test",
 												"default" : 												{
-													"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -7107,7 +7106,8 @@
 														"angle" : 270.0,
 														"proportion" : 0.5
 													}
-
+,
+													"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7116,8 +7116,8 @@
 , 											{
 												"name" : "tap-dark",
 												"default" : 												{
-													"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 													"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+													"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 													"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 													"fontname" : [ "Ableton Sans Light Regular" ]
 												}
@@ -9237,7 +9237,6 @@
 , 											{
 												"name" : "style test",
 												"default" : 												{
-													"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -9246,7 +9245,8 @@
 														"angle" : 270.0,
 														"proportion" : 0.5
 													}
-
+,
+													"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9255,8 +9255,8 @@
 , 											{
 												"name" : "tap-dark",
 												"default" : 												{
-													"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 													"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+													"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 													"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 													"fontname" : [ "Ableton Sans Light Regular" ]
 												}
@@ -15704,7 +15704,6 @@
 , 							{
 								"name" : "style test",
 								"default" : 								{
-									"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -15713,7 +15712,8 @@
 										"angle" : 270.0,
 										"proportion" : 0.5
 									}
-
+,
+									"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15722,8 +15722,8 @@
 , 							{
 								"name" : "tap-dark",
 								"default" : 								{
-									"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+									"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 									"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 									"fontname" : [ "Ableton Sans Light Regular" ]
 								}
@@ -16057,48 +16057,48 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-26::obj-60" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-187::obj-15::obj-32::obj-4" : [ "live.gain~[20]", "live.gain~[1]", 0 ],
-			"obj-28::obj-63" : [ "live.button[40]", "live.button", 0 ],
-			"obj-26::obj-63" : [ "live.button[45]", "live.button", 0 ],
-			"obj-26::obj-64" : [ "live.button[30]", "live.button", 0 ],
-			"obj-20" : [ "live.gain~[17]", "Gain", 0 ],
+			"obj-187::obj-41::obj-1" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
+			"obj-26::obj-69" : [ "live.button[44]", "live.button", 0 ],
 			"obj-187::obj-15::obj-32::obj-2::obj-5" : [ "live.gain~[31]", "Gain", 0 ],
-			"obj-187::obj-15::obj-29::obj-12" : [ "live.gain~[36]", "Gain", 0 ],
-			"obj-26::obj-65" : [ "live.text[1]", "live.text[3]", 0 ],
-			"obj-28::obj-71" : [ "live.button[37]", "live.button", 0 ],
-			"obj-5::obj-10::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
 			"obj-187::obj-15::obj-28::obj-16" : [ "live.gain~[27]", "live.gain~[14]", 0 ],
-			"obj-28::obj-72" : [ "live.button[39]", "live.button", 0 ],
 			"obj-28::obj-68" : [ "live.button[19]", "live.button", 0 ],
-			"obj-5::obj-32" : [ "live.gain~[4]", "Gain", 0 ],
-			"obj-28::obj-76" : [ "live.button[25]", "live.button", 0 ],
-			"obj-28::obj-77" : [ "live.button[26]", "live.button", 0 ],
-			"obj-28::obj-78" : [ "live.button[42]", "live.button", 0 ],
-			"obj-187::obj-15::obj-32::obj-2::obj-36" : [ "live.gain~[34]", "live.gain~[26]", 0 ],
-			"obj-28::obj-79" : [ "live.button[24]", "live.button", 0 ],
+			"obj-5::obj-7::obj-35" : [ "[3]", "Level", 0 ],
 			"obj-28::obj-65" : [ "live.button[17]", "live.button", 0 ],
 			"obj-187::obj-15::obj-33::obj-13" : [ "live.gain~[16]", "Gain", 0 ],
-			"obj-28::obj-86" : [ "live.button[18]", "live.button", 0 ],
-			"obj-5::obj-7::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
-			"obj-187::obj-41::obj-1" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
-			"obj-28::obj-60" : [ "live.button[38]", "live.button", 0 ],
-			"obj-187::obj-15::obj-31::obj-75" : [ "live.gain~[21]", "live.gain~", 0 ],
-			"obj-187::obj-15::obj-34::obj-17" : [ "live.gain~[23]", "Gain", 0 ],
-			"obj-187::obj-15::obj-31::obj-6" : [ "live.gain~[22]", "live.gain~", 0 ],
-			"obj-187::obj-15::obj-28::obj-39" : [ "live.gain~[28]", "live.gain~[15]", 0 ],
-			"obj-28::obj-67" : [ "live.button[20]", "live.button", 0 ],
-			"obj-26::obj-66" : [ "live.button[47]", "live.button", 0 ],
-			"obj-26::obj-67" : [ "live.button[50]", "live.button", 0 ],
-			"obj-26::obj-68" : [ "live.button[48]", "live.button", 0 ],
-			"obj-26::obj-69" : [ "live.button[44]", "live.button", 0 ],
-			"obj-28::obj-64" : [ "live.button[41]", "live.button", 0 ],
-			"obj-148" : [ "live.gain~[7]", "Gain", 0 ],
-			"obj-5::obj-7::obj-35" : [ "[3]", "Level", 0 ],
-			"obj-28::obj-58" : [ "live.button[22]", "live.button", 0 ],
-			"obj-28::obj-69" : [ "live.button[21]", "live.button", 0 ],
-			"obj-28::obj-66" : [ "live.button[36]", "live.button", 0 ],
+			"obj-187::obj-15::obj-32::obj-4" : [ "live.gain~[20]", "live.gain~[1]", 0 ],
 			"obj-5::obj-10::obj-35" : [ "[2]", "Level", 0 ],
+			"obj-28::obj-60" : [ "live.button[38]", "live.button", 0 ],
+			"obj-26::obj-60" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-148" : [ "live.gain~[7]", "Gain", 0 ],
+			"obj-26::obj-63" : [ "live.button[45]", "live.button", 0 ],
+			"obj-187::obj-15::obj-28::obj-39" : [ "live.gain~[28]", "live.gain~[15]", 0 ],
+			"obj-26::obj-64" : [ "live.button[30]", "live.button", 0 ],
+			"obj-26::obj-65" : [ "live.text[1]", "live.text[3]", 0 ],
+			"obj-28::obj-67" : [ "live.button[20]", "live.button", 0 ],
+			"obj-187::obj-15::obj-31::obj-6" : [ "live.gain~[22]", "live.gain~", 0 ],
+			"obj-5::obj-10::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
+			"obj-5::obj-32" : [ "live.gain~[4]", "Gain", 0 ],
+			"obj-28::obj-64" : [ "live.button[41]", "live.button", 0 ],
+			"obj-28::obj-58" : [ "live.button[22]", "live.button", 0 ],
+			"obj-5::obj-7::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
+			"obj-28::obj-69" : [ "live.button[21]", "live.button", 0 ],
+			"obj-20" : [ "live.gain~[17]", "Gain", 0 ],
+			"obj-187::obj-15::obj-31::obj-75" : [ "live.gain~[21]", "live.gain~", 0 ],
+			"obj-28::obj-71" : [ "live.button[37]", "live.button", 0 ],
+			"obj-28::obj-72" : [ "live.button[39]", "live.button", 0 ],
+			"obj-28::obj-76" : [ "live.button[25]", "live.button", 0 ],
+			"obj-187::obj-15::obj-29::obj-12" : [ "live.gain~[36]", "Gain", 0 ],
+			"obj-28::obj-66" : [ "live.button[36]", "live.button", 0 ],
+			"obj-187::obj-15::obj-32::obj-2::obj-36" : [ "live.gain~[34]", "live.gain~[26]", 0 ],
+			"obj-28::obj-77" : [ "live.button[26]", "live.button", 0 ],
+			"obj-28::obj-78" : [ "live.button[42]", "live.button", 0 ],
+			"obj-26::obj-66" : [ "live.button[47]", "live.button", 0 ],
+			"obj-28::obj-79" : [ "live.button[24]", "live.button", 0 ],
+			"obj-26::obj-67" : [ "live.button[50]", "live.button", 0 ],
+			"obj-187::obj-15::obj-34::obj-17" : [ "live.gain~[23]", "Gain", 0 ],
+			"obj-28::obj-63" : [ "live.button[40]", "live.button", 0 ],
+			"obj-28::obj-86" : [ "live.button[18]", "live.button", 0 ],
+			"obj-26::obj-68" : [ "live.button[48]", "live.button", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -16106,6 +16106,18 @@
 			"parameter_overrides" : 			{
 				"obj-187::obj-15::obj-32::obj-2::obj-5" : 				{
 					"parameter_longname" : "live.gain~[31]"
+				}
+,
+				"obj-5::obj-7::obj-35" : 				{
+					"parameter_longname" : "[3]"
+				}
+,
+				"obj-187::obj-15::obj-33::obj-13" : 				{
+					"parameter_longname" : "live.gain~[16]"
+				}
+,
+				"obj-5::obj-10::obj-35" : 				{
+					"parameter_longname" : "[2]"
 				}
 ,
 				"obj-5::obj-10::obj-21::obj-6" : 				{
@@ -16116,28 +16128,16 @@
 					"parameter_longname" : "live.gain~[4]"
 				}
 ,
-				"obj-187::obj-15::obj-32::obj-2::obj-36" : 				{
-					"parameter_longname" : "live.gain~[34]"
-				}
-,
-				"obj-187::obj-15::obj-33::obj-13" : 				{
-					"parameter_longname" : "live.gain~[16]"
-				}
-,
 				"obj-5::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[6]"
 				}
 ,
+				"obj-187::obj-15::obj-32::obj-2::obj-36" : 				{
+					"parameter_longname" : "live.gain~[34]"
+				}
+,
 				"obj-187::obj-15::obj-34::obj-17" : 				{
 					"parameter_longname" : "live.gain~[23]"
-				}
-,
-				"obj-5::obj-7::obj-35" : 				{
-					"parameter_longname" : "[3]"
-				}
-,
-				"obj-5::obj-10::obj-35" : 				{
-					"parameter_longname" : "[2]"
 				}
 
 			}
@@ -16388,7 +16388,6 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -16397,7 +16396,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.5
 					}
-
+,
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16406,8 +16406,8 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
