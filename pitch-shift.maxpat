@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1080.0, 236.0, 360.0, 133.0 ],
+		"rect" : [ 727.0, 351.0, 405.0, 133.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -61,12 +61,12 @@
 					"patching_rect" : [ -72.0, 111.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[1]",
+							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~[1]"
+							"parameter_shortname" : "live.gain~[1]",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -409,7 +409,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 773.0, 8.0, 30.0, 30.0 ]
 				}
 
@@ -533,6 +533,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 216.5, 36.666672110557556, 35.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 122.0, 57.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -545,7 +547,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 110.000001072883606, 18.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.599998295307159, 57.200000286102295, 18.0, 20.0 ],
+					"presentation_rect" : [ 122.0, 57.0, 18.0, 20.0 ],
 					"text" : "x"
 				}
 
@@ -573,7 +575,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 646.0, 189.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 97.5, 50.0, 20.0 ],
+					"presentation_rect" : [ 33.0, 91.5, 50.0, 20.0 ],
 					"text" : "gizmo~",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -589,7 +591,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 646.0, 175.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 83.0, 63.0, 20.0 ],
+					"presentation_rect" : [ 33.0, 77.0, 63.0, 20.0 ],
 					"text" : "transposer",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -607,9 +609,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 628.0, 175.0, 77.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.0, 83.0, 77.0, 34.0 ],
+					"presentation_rect" : [ 15.0, 77.0, 77.0, 34.0 ],
 					"size" : 2,
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -650,7 +652,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 129.0, 74.000001072883606, 322.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 28.0, 322.0, 34.0 ],
+					"presentation_rect" : [ 0.0, 14.0, 414.0, 41.0 ],
 					"range" : 78
 				}
 
@@ -885,14 +887,14 @@
 					"patching_rect" : [ 18.200000166893005, 241.799998223781586, 136.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[22]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -1415,8 +1417,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1443,10 +1445,10 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
 ,
 				"parentstyle" : "",
