@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1133.0, 353.0, 213.0, 168.0 ],
+		"rect" : [ 334.0, 355.0, 200.0, 161.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-14",
+					"index" : 3,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 283.0, -23.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -56,8 +69,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -400.700881999999979, 128.234798176650997, 110.0, 22.0 ],
-					"text" : "scale 0 275 0. 100."
+					"patching_rect" : [ -400.700881999999979, 128.234798176650997, 117.0, 22.0 ],
+					"text" : "scale 0. 275. 0. 100."
 				}
 
 			}
@@ -70,7 +83,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -340.290390000000116, 92.234798176650997, 50.0, 22.0 ]
+					"patching_rect" : [ -340.290390000000116, 39.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -83,7 +96,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -400.700881999999979, 92.234798176650997, 50.0, 22.0 ]
+					"patching_rect" : [ -400.700881999999979, 39.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -94,20 +107,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ -400.700881999999979, 45.234798176650997, 67.0, 22.0 ],
+					"patching_rect" : [ -400.700881999999979, -8.0, 67.0, 22.0 ],
 					"text" : "unpack 0 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -400.700881999999979, 8.234798176650997, 73.0, 22.0 ],
-					"text" : "receive XY2"
 				}
 
 			}
@@ -363,7 +364,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 28.0, -21.0, 30.0, 30.0 ]
 				}
 
@@ -5054,15 +5055,15 @@
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Gain",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
+							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Gain",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_linknames" : 1
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -5079,8 +5080,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 274.0, 176.0, 382.0, 35.0 ],
-					"text" : "100. 100. 100. 100. 100. 97.126495 104.332169 95.325073 100. 100. 100. 100. 22.36763 100. 100. 100."
+					"patching_rect" : [ 274.0, 176.0, 430.0, 35.0 ],
+					"text" : "100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 0.750609 100."
 				}
 
 			}
@@ -25252,6 +25253,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"order" : 0,
 					"source" : [ "obj-17", 1 ]
@@ -25497,13 +25505,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"source" : [ "obj-64", 0 ]
 				}
@@ -25719,8 +25720,8 @@
 				"default" : 				{
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ]
+					"fontname" : [ "Ableton Sans Light Regular" ],
+					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
