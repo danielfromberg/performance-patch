@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 403.0, 771.0, 602.0, 79.0 ],
+		"rect" : [ 403.0, 489.0, 602.0, 361.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-24",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -53,7 +53,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -103,7 +103,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-43",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -136,12 +136,12 @@
 					"patching_rect" : [ -72.0, 111.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~[1]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[2]",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "live.gain~[2]"
 						}
 
 					}
@@ -154,7 +154,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-32",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -456,7 +456,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-28",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -498,7 +498,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 216.5, 36.666672110557556, 35.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 291.500003039836884, 111.5, 35.0, 22.0 ],
+					"presentation_rect" : [ 398.500003039836884, 60.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -539,7 +539,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 646.0, 189.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 81.5, 50.0, 20.0 ],
+					"presentation_rect" : [ 462.0, 68.5, 50.0, 20.0 ],
 					"text" : "gizmo~",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -555,7 +555,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 646.0, 175.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 67.0, 63.0, 20.0 ],
+					"presentation_rect" : [ 462.0, 54.0, 63.0, 20.0 ],
 					"text" : "transposer",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -573,7 +573,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 628.0, 175.0, 77.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 67.0, 77.0, 34.0 ],
+					"presentation_rect" : [ 444.0, 54.0, 77.0, 34.0 ],
 					"size" : 2,
 					"value" : 1
 				}
@@ -615,7 +615,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 129.0, 74.000001072883606, 322.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 8.0, 598.0, 57.0 ],
+					"presentation_rect" : [ 1.0, 89.0, 598.0, 57.0 ],
 					"range" : 78
 				}
 
@@ -717,7 +717,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -730,11 +730,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-78",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.0, 5.0, 30.0, 30.0 ]
 				}
 
@@ -815,7 +815,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -828,11 +828,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 78.79999977350235, -23.0, 30.0, 30.0 ]
 				}
 
@@ -850,14 +850,14 @@
 					"patching_rect" : [ 18.200000166893005, 241.799998223781586, 136.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[22]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0 ]
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -1307,6 +1307,45 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-6" : [ "live.gain~[22]", "live.gain~", 0 ],
+			"obj-31" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "transratio.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pitch-shiftt.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transposer.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gadget.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-68", "obj-61", "obj-60" ]
 			}
@@ -1369,7 +1408,6 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -1378,7 +1416,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.5
 					}
-
+,
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1387,10 +1426,10 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ],
-					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
 ,
 				"parentstyle" : "",
