@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 208.0, 114.0, 1156.0, 752.0 ],
+		"rect" : [ 400.0, 240.0, 299.0, 258.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -407,7 +407,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-99",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -420,11 +420,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-98",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ -120.0, 827.0, 30.0, 30.0 ]
 				}
 
@@ -433,11 +433,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-97",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ -210.0, 827.0, 30.0, 30.0 ]
 				}
 
@@ -460,6 +460,7 @@
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Gain",
@@ -467,8 +468,7 @@
 							"parameter_unitstyle" : 4,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[5]",
-							"parameter_initial_enable" : 1
+							"parameter_longname" : "live.gain~[5]"
 						}
 
 					}
@@ -872,7 +872,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -885,7 +885,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -897,7 +897,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1124,7 +1124,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1219,7 +1219,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 252.0, 845.0, 135.0, 22.0 ],
-					"text" : "set #0_stutterloop.12"
+					"text" : "set 1155_stutterloop.17"
 				}
 
 			}
@@ -1404,7 +1404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ -54.0, 86.5, 147.0, 22.0 ],
+					"patching_rect" : [ -54.0, 86.5, 160.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -2608,17 +2608,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-58" : [ "live.gain~[5]", "Gain", 0 ],
-			"obj-26" : [ "live.gain~[34]", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "messageGreen-1",
 				"default" : 				{
@@ -2667,8 +2656,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2677,6 +2666,7 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -2685,8 +2675,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.5
 					}
-,
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -2695,9 +2684,9 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
 ,

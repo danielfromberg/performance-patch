@@ -1383,7 +1383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 420.333329200744629, 1949.866634845733643, 50.0, 22.0 ],
-					"text" : "0 10 1"
+					"text" : "7 9 1"
 				}
 
 			}
@@ -2526,7 +2526,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1325.214611381574286, 820.066711187362671, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 532.0, -14.999994993209839, 220.0, 279.0 ],
+					"presentation_rect" : [ 532.0, -14.999994993209839, 217.0, 285.0 ],
 					"varname" : "del",
 					"viewvisibility" : 1
 				}
@@ -7068,7 +7068,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 176.0, 529.0, 50.0, 22.0 ],
-									"text" : "0 10 1"
+									"text" : "7 9 1"
 								}
 
 							}
@@ -8965,20 +8965,20 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 347.75, 617.0, 52.0, 76.0 ],
-									"text" : "drawsprite TapSamplerX 215 384"
+									"text" : "drawsprite delayyyX 79 374"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"linecount" : 5,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 261.75, 617.0, 36.0, 89.0 ],
-									"text" : "hidesprite eightX"
+									"text" : "hidesprite TapSamplerX"
 								}
 
 							}
@@ -10314,13 +10314,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-2",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 305.0, 462.0, 40.0, 49.0 ],
-													"text" : "TapSampler"
+													"text" : "delayyy"
 												}
 
 											}
@@ -13851,8 +13851,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13879,8 +13879,8 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
@@ -13889,7 +13889,7 @@
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.817, 0.907, 0.912, 1.0 ]
+		"bgcolor" : [ 0.945, 0.929, 0.94, 1.0 ]
 	}
 
 }

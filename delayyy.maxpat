@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 599.611358000000109, 270.0, 29.5, 22.0 ],
+					"patching_rect" : [ 596.611358000000109, 263.0, 29.5, 22.0 ],
 					"text" : "/ 2."
 				}
 
@@ -279,7 +279,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-104",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -583,7 +583,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-94",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -620,7 +620,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-89",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -633,7 +633,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-88",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -646,7 +646,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-87",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -891,7 +891,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-69",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -903,7 +903,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-68",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1018,15 +1018,15 @@
 					"prototypename" : "M4L.live.gain~.V.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[19]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Gain"
+							"parameter_shortname" : "Gain",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -1039,11 +1039,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-54",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 376.361357999999996, 11.0, 30.0, 30.0 ]
 				}
 
@@ -1052,11 +1052,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-53",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 15.0, 30.0, 30.0 ]
 				}
 
@@ -1514,23 +1514,23 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-18", 0 ],
+					"order" : 0,
 					"source" : [ "obj-46", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"order" : 0,
-					"source" : [ "obj-47", 0 ]
+					"destination" : [ "obj-47", 0 ],
+					"order" : 1,
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 1 ],
-					"order" : 1,
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -1849,6 +1849,16 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-55" : [ "live.gain~[19]", "Gain", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "messageGreen-1",
 				"default" : 				{
@@ -1925,9 +1935,9 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
 ,
