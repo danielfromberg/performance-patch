@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1024.0, 45.0, 416.0, 855.0 ],
+		"rect" : [ 1012.0, 45.0, 428.0, 855.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -404,14 +404,14 @@
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "liveseq.maxpat",
+					"name" : "new-sequencer.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"offset" : [ -10.0, 0.0 ],
-					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ -2.0, 728.0, 408.0, 244.0 ],
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -2.0, 728.0, 276.0, 246.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 731.0, 408.0, 246.0 ],
+					"presentation_rect" : [ 2.0, 731.0, 276.0, 246.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -426,14 +426,14 @@
 					"id" : "obj-23",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "liveseq.maxpat",
+					"name" : "new-sequencer.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"offset" : [ -10.0, 0.0 ],
-					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ -2.0, 483.0, 418.0, 243.0 ],
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -2.0, 483.0, 276.0, 246.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 487.0, 408.0, 242.0 ],
+					"presentation_rect" : [ 2.0, 490.0, 276.0, 246.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -475,7 +475,7 @@
 					"numoutlets" : 2,
 					"offset" : [ -10.0, 0.0 ],
 					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ -2.0, 2.0, 418.0, 290.0 ],
+					"patching_rect" : [ 43.0, -36.0, 418.0, 290.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 1.0, 408.0, 239.0 ],
 					"viewvisibility" : 1
@@ -501,7 +501,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 7.5, 714.5, 7.5, 714.5 ],
+					"midpoints" : [ 52.5, 714.5, 7.5, 714.5 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -784,8 +784,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -812,8 +812,8 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
@@ -822,7 +822,7 @@
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.983, 0.867, 0.904, 1.0 ]
+		"bgcolor" : [ 0.814, 0.881, 0.94, 1.0 ]
 	}
 
 }
