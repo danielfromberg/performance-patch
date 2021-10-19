@@ -40,6 +40,18 @@
 		"title" : "sequences 1",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 63.0, 1274.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 37.0, 1172.0, 150.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -409,9 +421,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -2.0, 728.0, 276.0, 246.0 ],
+					"patching_rect" : [ -2.0, 823.0, 276.0, 246.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 731.0, 276.0, 246.0 ],
+					"presentation_rect" : [ 2.0, 757.0, 276.0, 246.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -426,14 +438,14 @@
 					"id" : "obj-23",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "new-sequencer.maxpat",
+					"name" : "sequencer-module.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -2.0, 483.0, 276.0, 246.0 ],
+					"patching_rect" : [ 2.0, 529.0, 429.0, 292.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 490.0, 276.0, 246.0 ],
+					"presentation_rect" : [ 2.0, 487.0, 423.0, 274.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -475,9 +487,9 @@
 					"numoutlets" : 2,
 					"offset" : [ -10.0, 0.0 ],
 					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ 43.0, -36.0, 418.0, 290.0 ],
+					"patching_rect" : [ -2.0, -7.0, 418.0, 290.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 1.0, 408.0, 239.0 ],
+					"presentation_rect" : [ 2.0, 1.0, 415.0, 239.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -501,7 +513,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 52.5, 714.5, 7.5, 714.5 ],
+					"midpoints" : [ 7.5, 714.5, 7.5, 714.5 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -623,7 +635,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 7.5, 1134.0, 73.5, 1134.0 ],
+					"midpoints" : [ 11.5, 1134.0, 73.5, 1134.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -714,7 +726,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -730,7 +742,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -784,8 +796,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -794,6 +806,7 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -802,8 +815,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.5
 					}
-,
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -812,17 +824,17 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ]
+					"fontname" : [ "Ableton Sans Light Regular" ],
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.814, 0.881, 0.94, 1.0 ]
+		"bgcolor" : [ 0.835, 0.94, 0.874, 1.0 ]
 	}
 
 }
