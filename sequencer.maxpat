@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 595.0, 45.0, 845.0, 491.0 ],
+		"rect" : [ 866.0, 45.0, 574.0, 382.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 642.050956464444312, 480.0, 31.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "play"
 				}
 
@@ -281,7 +280,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-80",
-					"items" : [ "Arturia BeatStep", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -422,7 +421,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1459.573713415517204, 452.233359485864639, 176.000003755092621, 22.0 ],
-					"text" : "1146 201 1440 356"
+					"text" : "542 45 905 615"
 				}
 
 			}
@@ -1014,11 +1013,11 @@
 					"presentation_rect" : [ 251.541678167879581, 81.591053328523685, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[22]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1046,11 +1045,11 @@
 					"presentation_rect" : [ 251.541678167879581, 52.866051307926227, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[38]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1078,11 +1077,11 @@
 					"presentation_rect" : [ 222.791678167879581, 52.866051307926227, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[40]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1110,11 +1109,11 @@
 					"presentation_rect" : [ 194.041678167879581, 52.866051307926227, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[41]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1142,11 +1141,11 @@
 					"presentation_rect" : [ 165.291678167879581, 52.866051307926227, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[17]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1174,11 +1173,11 @@
 					"presentation_rect" : [ 136.041678167879581, 52.866051307926227, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[36]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1206,11 +1205,11 @@
 					"presentation_rect" : [ 107.291678167879581, 52.866051307926227, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[20]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1238,11 +1237,11 @@
 					"presentation_rect" : [ 78.791678167879581, 52.866051307926227, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[19]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1270,11 +1269,11 @@
 					"presentation_rect" : [ 50.041678167879581, 52.866051307926227, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[21]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1302,11 +1301,11 @@
 					"presentation_rect" : [ 222.791678167879581, 81.591053328523685, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[37]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1334,11 +1333,11 @@
 					"presentation_rect" : [ 194.041678167879581, 81.591053328523685, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[39]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1366,11 +1365,11 @@
 					"presentation_rect" : [ 165.291678167879581, 81.591053328523685, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[25]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1398,11 +1397,11 @@
 					"presentation_rect" : [ 136.041678167879581, 81.591053328523685, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[26]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1430,11 +1429,11 @@
 					"presentation_rect" : [ 107.291678167879581, 81.591053328523685, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[42]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1462,11 +1461,11 @@
 					"presentation_rect" : [ 78.791678167879581, 81.591053328523685, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[24]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1494,11 +1493,11 @@
 					"presentation_rect" : [ 50.041678167879581, 81.591053328523685, 22.25, 22.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 2,
 							"parameter_longname" : "live.button[18]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_enum" : [ "off", "on" ]
 						}
 
 					}
@@ -1543,7 +1542,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 904.216675236821175, 204.029163475176574, 285.851914970347707, 112.608330139833939 ],
-					"pic" : "/Users/danielfromberg/Desktop/images misc/arturia_beatstep__black_edition__1_1.jpg",
+					"pic" : "Macintosh HD:/Users/danielfromberg/Documents/performance-patch/images/arturia_beatstep__black_edition__1_1.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.216675236821175, -0.970836524823426, 285.851914970347707, 112.608330139833939 ]
 				}
@@ -3196,8 +3195,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3206,6 +3205,7 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -3214,8 +3214,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.5
 					}
-,
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -3224,9 +3223,9 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ],
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 ,
