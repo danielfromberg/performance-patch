@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"linecount" : 14,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -74.0, 273.0, 50.0, 196.0 ],
+					"text" : "\"Macintosh HD:/Users/danielfromberg/Documents/desktop/sound/Drum samples/909/clean/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
 					"index" : 4,
@@ -465,7 +478,7 @@
 							"parameter_unitstyle" : 4,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[28]",
+							"parameter_longname" : "live.gain~[5]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
 							"parameter_initial" : [ 0.0 ]
@@ -1166,7 +1179,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 618.5, 147.0, 35.0 ],
+					"patching_rect" : [ 120.0, 618.5, 149.0, 35.0 ],
 					"text" : "setbuf #0_stutterloop.4 0 1"
 				}
 
@@ -1178,7 +1191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 584.5, 232.0, 22.0 ],
+					"patching_rect" : [ 120.0, 584.5, 233.0, 22.0 ],
 					"text" : "sprintf setbuf #0_stutterloop.%ld 0 1"
 				}
 
@@ -1207,7 +1220,7 @@
 					"patching_rect" : [ 926.0, 546.799999177455902, 140.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.399996280670166, 91.400000631809235, 140.0, 20.0 ],
-					"size" : 49.0
+					"size" : 32.0
 				}
 
 			}
@@ -1220,7 +1233,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 252.0, 845.0, 135.0, 35.0 ],
-					"text" : "set 1125189_stutterloop.13"
+					"text" : "set 2176985_stutterloop.20"
 				}
 
 			}
@@ -1231,7 +1244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 849.5, 601.0, 196.0, 22.0 ],
+					"patching_rect" : [ 849.5, 601.0, 197.0, 22.0 ],
 					"text" : "sprintf set #0_stutterloop.%ld"
 				}
 
@@ -1292,7 +1305,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.0, 547.5, 187.0, 22.0 ],
+					"patching_rect" : [ 432.0, 547.5, 188.0, 22.0 ],
 					"text" : "prepend set #0_stutterloop."
 				}
 
@@ -1329,7 +1342,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 339.0, 315.0, 183.0, 22.0 ],
+					"patching_rect" : [ 339.0, 315.0, 184.0, 22.0 ],
 					"text" : "setbuf #0_stutterloop.2 0 1"
 				}
 
@@ -1389,12 +1402,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -54.0, 47.0, 498.0, 22.0 ],
-					"text" : "readfolder \"Macintosh HD:/Users/danielfromberg/Documents/performance-patch/all_drums/\""
+					"patching_rect" : [ -54.0, 47.0, 448.0, 35.0 ],
+					"text" : "readfolder \"Macintosh HD:/Users/danielfromberg/Documents/desktop/sound/Drum samples/909/clean/\""
 				}
 
 			}
@@ -1405,7 +1419,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ -54.0, 86.5, 180.0, 22.0 ],
+					"patching_rect" : [ -54.0, 86.5, 181.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -1582,7 +1596,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.0, 315.0, 183.0, 22.0 ],
+					"patching_rect" : [ 167.0, 315.0, 184.0, 22.0 ],
 					"text" : "setbuf #0_stutterloop.1 0 1"
 				}
 
@@ -1687,7 +1701,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 857.5, 260.5, 217.0, 23.0 ],
+					"patching_rect" : [ 857.5, 260.5, 218.0, 23.0 ],
 					"text" : "loadmess set #0_stutterloop.4"
 				}
 
@@ -1701,7 +1715,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 857.5, 186.202972499999987, 217.0, 23.0 ],
+					"patching_rect" : [ 857.5, 186.202972499999987, 218.0, 23.0 ],
 					"text" : "loadmess set #0_stutterloop.3"
 				}
 
@@ -1715,7 +1729,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 857.5, 116.202972500000016, 217.0, 23.0 ],
+					"patching_rect" : [ 857.5, 116.202972500000016, 218.0, 23.0 ],
 					"text" : "loadmess set #0_stutterloop.2"
 				}
 
@@ -1729,7 +1743,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 713.0, 24.0, 217.0, 23.0 ],
+					"patching_rect" : [ 713.0, 24.0, 218.0, 23.0 ],
 					"text" : "loadmess set #0_stutterloop.1"
 				}
 
@@ -1741,7 +1755,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.5, 199.0, 176.0, 22.0 ],
+					"patching_rect" : [ 491.5, 199.0, 177.0, 22.0 ],
 					"text" : "set #0_stutterloop. $1 0 1"
 				}
 
@@ -2657,8 +2671,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2685,10 +2699,10 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ]
+					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"fontname" : [ "Ableton Sans Light Regular" ],
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

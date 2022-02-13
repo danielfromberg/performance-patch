@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-148",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 718.0, 700.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-141",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -178,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 995.0, 361.0, 58.0, 22.0 ],
+					"patching_rect" : [ 995.0, 344.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -229,7 +241,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1114.0, 414.0, 160.0, 145.0 ],
+					"patching_rect" : [ 1133.614244561823398, 332.570719578514172, 160.0, 145.0 ],
 					"range" : 128,
 					"size" : 128,
 					"table_data" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
@@ -392,11 +404,11 @@
 					"patching_rect" : [ 668.166670978069305, 1542.054507749576715, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.button",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.button[4]",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_longname" : "live.button[30]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -416,11 +428,11 @@
 					"patching_rect" : [ 561.166657447814941, 1529.054507749576715, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.button",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.button[5]",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_longname" : "live.button[31]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -543,11 +555,11 @@
 					"patching_rect" : [ 764.666657447814941, 1462.054507749576715, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.button",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.button[28]",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_longname" : "live.button[33]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -567,11 +579,11 @@
 					"patching_rect" : [ 658.666657447814941, 1462.054507749576715, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.button",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.button[3]",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_longname" : "live.button[45]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -693,11 +705,11 @@
 					"patching_rect" : [ 743.166657447814941, 1248.666667938232422, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.button",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.button[29]",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_longname" : "live.button[32]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -717,11 +729,11 @@
 					"patching_rect" : [ 629.666657447814941, 1248.666667938232422, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.button",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.button",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_longname" : "live.button[44]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -2294,7 +2306,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 214.0, 1675.177806126375344, 87.0, 22.0 ],
-					"text" : "3 60 80 76"
+					"text" : "10 60 89 79"
 				}
 
 			}
@@ -2726,7 +2738,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 204.0, 966.0, 99.0, 22.0 ],
-					"text" : "3 60 80 76"
+					"text" : "10 60 89 79"
 				}
 
 			}
@@ -3188,12 +3200,12 @@
 					"presentation_rect" : [ 8.0, 107.0, 399.0, 131.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.step[2]",
 							"parameter_type" : 3,
-							"parameter_longname" : "live.step[6]",
+							"parameter_longname" : "live.step[7]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2, 16, 7, 16, 11, 1, 12, 0, 16, 52, 65, 0, 0, 52, 117, 4, 76, 42, 52, 0, 4, 0, 30, 59, 80, 4, 76, 5, 59, 0, 4, 39, -6, 57, 54, 4, 82, -16, 62, 99, 4, 75, -62, 62, 0, 4, 47, 10, 55, 98, 4, 58, 77, 55, 0, 4, 36, 11, 64, 89, 4, 79, 13, 64, 0, 4, 66, -18, 57, 43, 4, 48, 33, 59, 75, 4, 34, 11, 55, 91, 4, 33, -3, 59, 99, 4, 33, 6, 57, 112, 4, 32, 14, 60, 62, 63, 67, 70, 74, 79, 1, 12, 0, 16, 52, 65, 0, 0, 57, 0, 4, 0, 42, 57, 27, 4, 18, 30, 59, 25, 4, 18, 5, 55, 31, 4, 27, -6, 59, 66, 4, 48, -16, 57, 43, 4, 0, -62, 52, 37, 4, 0, 10, 52, 0, 4, 0, 77, 59, 70, 4, 42, 11, 59, 0, 4, 0, 13, 57, 47, 4, 42, -18, 62, 25, 4, 63, 33, 55, 0, 4, 0, 11, 55, 53, 4, 44, -3, 55, 0, 4, 0, 6, 64, 51, 4, 37, 14, 48, 50, 51, 53, 57, 59, 60, 62, 64, 68, 70 ],
-							"parameter_shortname" : "live.step[2]"
+							"parameter_initial" : [ 2, 16, 7, 16, 11, 1, 12, 0, 16, 52, 65, 0, 0, 52, 117, 4, 76, 42, 52, 0, 4, 0, 30, 59, 80, 4, 76, 5, 59, 0, 4, 39, -6, 57, 54, 4, 82, -16, 62, 99, 4, 75, -62, 62, 0, 4, 47, 10, 55, 98, 4, 58, 77, 55, 0, 4, 36, 11, 64, 89, 4, 79, 13, 64, 0, 4, 66, -18, 57, 43, 4, 48, 33, 59, 75, 4, 34, 11, 55, 91, 4, 33, -3, 59, 99, 4, 33, 6, 57, 112, 4, 32, 14, 60, 62, 63, 67, 70, 74, 79, 1, 12, 0, 16, 52, 65, 0, 0, 57, 0, 4, 0, 42, 57, 27, 4, 18, 30, 59, 25, 4, 18, 5, 55, 31, 4, 27, -6, 59, 66, 4, 48, -16, 57, 43, 4, 0, -62, 52, 37, 4, 0, 10, 52, 0, 4, 0, 77, 59, 70, 4, 42, 11, 59, 0, 4, 0, 13, 57, 47, 4, 42, -18, 62, 25, 4, 63, 33, 55, 0, 4, 0, 11, 55, 53, 4, 44, -3, 55, 0, 4, 0, 6, 64, 51, 4, 37, 14, 48, 50, 51, 53, 57, 59, 60, 62, 64, 68, 70 ]
 						}
 
 					}
@@ -3761,22 +3773,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-166", 0 ],
-					"order" : 0,
-					"source" : [ "obj-167", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-198", 0 ],
-					"order" : 1,
-					"source" : [ "obj-167", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-141", 0 ],
 					"source" : [ "obj-168", 0 ]
 				}
@@ -4121,7 +4117,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-148", 0 ],
+					"order" : 0,
+					"source" : [ "obj-204", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
+					"order" : 1,
 					"source" : [ "obj-204", 0 ]
 				}
 
@@ -4164,7 +4169,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-148", 0 ],
+					"order" : 0,
+					"source" : [ "obj-211", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"order" : 1,
 					"source" : [ "obj-211", 0 ]
 				}
 
@@ -4404,22 +4418,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-57", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-579", 0 ],
-					"order" : 0,
-					"source" : [ "obj-573", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-580", 0 ],
-					"order" : 1,
-					"source" : [ "obj-573", 0 ]
 				}
 
 			}
@@ -4959,10 +4957,10 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ],
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

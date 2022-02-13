@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 124.0, 1372.0, 742.0 ],
+		"rect" : [ 330.0, 79.0, 572.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -62,22 +62,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 496.0, 492.0, 56.0, 22.0 ],
-					"sig" : 0.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-14",
-					"maxclass" : "number~",
-					"mode" : 2,
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 302.0, 377.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -236,7 +220,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 444.08576037344119, 327.833308935165633, 59.0, 22.0 ],
-					"text" : "1."
+					"text" : "2."
 				}
 
 			}
@@ -297,7 +281,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 253.666667342185747, 36.0, 22.0 ],
-					"text" : "1."
+					"text" : "2."
 				}
 
 			}
@@ -357,22 +341,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.519206214471694, 140.0, 86.0, 22.0 ],
 					"text" : "r #0_start"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"maxclass" : "number~",
-					"mode" : 2,
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 231.866681545972824, 458.0, 56.0, 22.0 ],
-					"sig" : 0.0
 				}
 
 			}
@@ -627,7 +595,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.957128724173799, 592.197001890346201, 30.0, 30.0 ]
+					"patching_rect" : [ 96.957128724173799, 665.197001890346201, 30.0, 30.0 ]
 				}
 
 			}
@@ -639,7 +607,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.900006264448166, 540.197001890346201, 30.0, 30.0 ]
+					"patching_rect" : [ 355.900006264448166, 564.197001890346201, 30.0, 30.0 ]
 				}
 
 			}
@@ -658,7 +626,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -670,7 +638,7 @@
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 156.900006622076035, 592.197001890346201, 56.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -9.000013589859009, 36.663607537746429, 53.5, 22.0 ],
+					"presentation_rect" : [ -9.000013589859009, 36.663607537746429, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -739,7 +707,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-355", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-174", 0 ]
 				}
 
@@ -747,7 +715,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-174", 0 ]
 				}
 
@@ -851,15 +819,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-236", 2 ],
-					"order" : 1,
-					"source" : [ "obj-264", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 0,
 					"source" : [ "obj-264", 0 ]
 				}
 
@@ -910,14 +869,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"order" : 1,
-					"source" : [ "obj-333", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"order" : 0,
 					"source" : [ "obj-333", 0 ]
@@ -927,7 +878,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-264", 1 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-333", 0 ]
 				}
 
@@ -1099,8 +1050,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1128,9 +1079,9 @@
 				"name" : "tap-dark",
 				"default" : 				{
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"fontname" : [ "Ableton Sans Light Regular" ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ]
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
