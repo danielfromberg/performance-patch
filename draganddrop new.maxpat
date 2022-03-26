@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 323.0, 808.0 ],
+		"rect" : [ 5.0, 47.0, 301.0, 808.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -427,7 +427,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 878.666692852973938, 598.666684508323669, 50.0, 22.0 ],
-					"text" : "5 7 0"
+					"text" : "1 7 1"
 				}
 
 			}
@@ -2709,7 +2709,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "int", "" ],
-					"patching_rect" : [ 10.0, 278.603248000000008, 305.000000059604645, 533.333335000000034 ],
+					"patching_rect" : [ 10.0, 278.603248000000008, 305.000000059604645, 529.333335000000034 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.000000357627869, 88.603247566062976, 281.0, 532.833335280418396 ]
 				}
@@ -2736,7 +2736,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 677.190372884273529, 886.142913818359375, 480.0, 32.0 ],
-					"text" : "clearall, create adc, create parametric, create reverbb, create drums, create pitch-shift, create TapSampler, create delayyyy, create EQ, create vocoder, create eight"
+					"text" : "clearall, create adc, create parametric, create reverbb, create drums, create pitch-shift, create TapSampler, create delayyyy, create EQ, create vocoder, create eight, create three"
 				}
 
 			}
@@ -2824,7 +2824,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-187", 1 ],
-					"midpoints" : [ 47.966674327850228, 267.0, 6.0, 267.0, 6.0, 930.0, 63.966674089431649, 930.0 ],
+					"midpoints" : [ 47.966674327850228, 267.0, 93.0, 267.0, 93.0, 261.0, 327.0, 261.0, 327.0, 879.0, 111.0, 879.0, 111.0, 930.0, 63.966674089431649, 930.0 ],
 					"source" : [ "obj-148", 1 ]
 				}
 
@@ -2832,7 +2832,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-187", 0 ],
-					"midpoints" : [ 39.966674327850228, 243.0, 15.333317875862122, 243.0, 15.333317875862122, 204.0, 18.529174089431649, 204.0 ],
+					"midpoints" : [ 39.966674327850228, 267.0, 93.0, 267.0, 93.0, 261.0, 327.0, 261.0, 327.0, 879.0, 111.0, 879.0, 111.0, 930.0, 18.529174089431649, 930.0 ],
 					"source" : [ "obj-148", 0 ]
 				}
 
@@ -2877,7 +2877,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 139.695840756098335, 978.0, 659.000004887580872, 978.0, 659.000004887580872, 231.0, 639.0, 231.0, 639.0, 192.0, 738.813096046447754, 192.0 ],
+					"midpoints" : [ 139.695840756098335, 978.0, 495.0, 978.0, 495.0, 426.0, 486.0, 426.0, 486.0, 186.0, 738.813096046447754, 186.0 ],
 					"source" : [ "obj-187", 1 ]
 				}
 
@@ -3324,10 +3324,10 @@
 			"obj-187::obj-263::obj-16::obj-7" : [ "live.step[7]", "live.step[2]", 0 ],
 			"obj-148" : [ "live.gain~[30]", "Gain", 0 ],
 			"obj-187::obj-6::obj-63" : [ "live.button[2]", "live.button", 0 ],
-			"obj-187::obj-2::obj-86" : [ "live.button[18]", "live.button", 0 ],
 			"obj-187::obj-2::obj-60" : [ "live.button[38]", "live.button", 0 ],
-			"obj-187::obj-263::obj-12::obj-161" : [ "live.button[29]", "live.button", 0 ],
+			"obj-187::obj-2::obj-86" : [ "live.button[18]", "live.button", 0 ],
 			"obj-187::obj-263::obj-12::obj-48" : [ "live.button[3]", "live.button", 0 ],
+			"obj-187::obj-263::obj-12::obj-161" : [ "live.button[29]", "live.button", 0 ],
 			"obj-187::obj-2::obj-63" : [ "live.button[40]", "live.button", 0 ],
 			"obj-187::obj-6::obj-60" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-187::obj-2::obj-76" : [ "live.button[25]", "live.button", 0 ],
@@ -3342,6 +3342,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-187::obj-128::obj-444" : 				{
+					"parameter_longname" : "live.menu[118]"
+				}
+,
 				"obj-187::obj-263::obj-12::obj-162" : 				{
 					"parameter_longname" : "live.button"
 				}
@@ -3352,6 +3356,10 @@
 ,
 				"obj-187::obj-263::obj-16::obj-32" : 				{
 					"parameter_longname" : "live.button[33]"
+				}
+,
+				"obj-187::obj-128::obj-81" : 				{
+					"parameter_longname" : "live.gain~[51]"
 				}
 ,
 				"obj-5::obj-1::obj-21::obj-6" : 				{
@@ -3386,12 +3394,12 @@
 					"parameter_longname" : "live.button[5]"
 				}
 ,
-				"obj-187::obj-263::obj-12::obj-161" : 				{
-					"parameter_longname" : "live.button[29]"
-				}
-,
 				"obj-187::obj-263::obj-12::obj-48" : 				{
 					"parameter_longname" : "live.button[3]"
+				}
+,
+				"obj-187::obj-263::obj-12::obj-161" : 				{
+					"parameter_longname" : "live.button[29]"
 				}
 ,
 				"obj-187::obj-263::obj-16::obj-111" : 				{
@@ -3463,7 +3471,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "start",
+				"name" : "dry",
 				"bootpath" : "~/Documents/performance-patch",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",

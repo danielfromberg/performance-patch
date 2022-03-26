@@ -74,9 +74,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "fxseq.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 34.900000631809235, -225.0, 378.0, 178.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -9.0, -243.0, 410.0, 243.0 ],
@@ -824,6 +824,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"midpoints" : [ 403.400000631809235, -3.0, 441.0, -3.0, 441.0, 78.0, 510.0, 78.0, 510.0, 192.0, 462.0, 192.0, 462.0, 1131.0, 155.5, 1131.0 ],
+					"source" : [ "obj-33", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"midpoints" : [ 44.400000631809235, 529.0, 195.5, 529.0 ],
 					"source" : [ "obj-33", 0 ]
@@ -1057,17 +1065,17 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ]
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"fontname" : [ "Ableton Sans Light Regular" ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.99, 0.912, 0.912, 1.0 ]
+		"bgcolor" : [ 0.92, 0.97, 0.833, 1.0 ]
 	}
 
 }
