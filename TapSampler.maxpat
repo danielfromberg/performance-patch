@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"title" : "04 C4 chord.wav",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-318",
@@ -748,7 +749,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[4]",
+							"parameter_longname" : "live.gain~[51]",
 							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
@@ -1467,7 +1468,7 @@
 					"patching_rect" : [ 759.0, 1877.0, 100.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.menu[2]",
+							"parameter_longname" : "live.menu[118]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.menu",
 							"parameter_enum" : [ "Hanning", "Gaussian", "Sinc" ],
@@ -1819,13 +1820,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-347",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.0, 1435.936555395252071, 52.0, 35.0 ],
-					"text" : "0 472 472"
+					"patching_rect" : [ 704.0, 1435.936555395252071, 55.0, 49.0 ],
+					"text" : "1679 2139 459"
 				}
 
 			}
@@ -2527,7 +2528,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1107.538090843963346, 1023.133332967758179, 49.0, 22.0 ],
-					"text" : "60000"
+					"text" : "1979"
 				}
 
 			}
@@ -5593,7 +5594,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[7]",
+							"parameter_longname" : "live.gain~",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
 							"parameter_initial" : [ 0.0 ],
@@ -5665,7 +5666,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1028.466670131683259, 828.499998986721266, 100.0, 22.0 ],
-					"text" : "482.4375"
+					"text" : "2149.1875"
 				}
 
 			}
@@ -5677,7 +5678,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 924.116667687893141, 828.499998986721266, 96.0, 22.0 ],
-					"text" : "0."
+					"text" : "1679.666667"
 				}
 
 			}
@@ -6909,7 +6910,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 134.341681537528842, -12.499987900257111, 30.0, 30.0 ]
 				}
 
@@ -6931,7 +6932,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[5]",
+							"parameter_longname" : "live.gain~[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
 							"parameter_initial" : [ 0.0 ],
@@ -6955,7 +6956,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 6.341681537528842, -12.499987900257111, 30.0, 30.0 ]
 				}
 
@@ -7022,7 +7023,7 @@
 					"format" : 6,
 					"id" : "obj-192",
 					"maxclass" : "flonum",
-					"minimum" : 0.001,
+					"minimum" : 1679.667666666666491,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -7076,7 +7077,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 256.114244561823398, 1035.653175567177868, 215.0, 30.0 ],
-					"text" : "0."
+					"text" : "1679.666667"
 				}
 
 			}
@@ -7906,7 +7907,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 696.86667013168335, 393.548506945371628, 21.0, 79.0 ],
+					"patching_rect" : [ 696.86667013168335, 393.548506945371628, 22.333336234092712, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.000002861022949, 1.616671681404114, 21.0, 79.0 ],
 					"viewvisibility" : 1
@@ -8006,11 +8007,11 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 472.441944881889754, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
+						"loopend" : [ 2139.1875, "ms" ],
+						"loopstart" : [ 1679.666666666666515, "ms" ],
 						"mode" : "extremestretch",
-						"originallength" : [ 0.005519458648725, "ticks" ],
-						"originaltempo" : 0.000011498872308,
+						"originallength" : [ 0.005519458606558, "ticks" ],
+						"originaltempo" : 0.000086656772017,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "better",
@@ -12417,7 +12418,7 @@
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.981, 0.953, 0.842, 1.0 ]
+		"bgcolor" : [ 0.883, 0.978, 0.826, 1.0 ]
 	}
 
 }
