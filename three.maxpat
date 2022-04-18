@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 265.0, 79.0, 1199.0, 724.0 ],
+		"rect" : [ 207.0, 79.0, 1199.0, 724.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 131.0, 1158.0, 50.0, 22.0 ],
+					"text" : "53"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-133",
 					"maxclass" : "newobj",
@@ -518,7 +530,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 516.0, 445.0, 50.0, 22.0 ],
-					"text" : "55 127"
+					"text" : "25 127"
 				}
 
 			}
@@ -692,7 +704,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -249.600003719329834, 1027.378740311302408, 187.375548999999978, 20.234413000000018 ],
+					"patching_rect" : [ -249.600003719329834, 1031.378740311302408, 187.375548999999978, 20.234413000000018 ],
 					"size" : 101.0,
 					"style" : "sliderGold"
 				}
@@ -1034,8 +1046,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -26.666667461395264, 981.333362579345703, 83.0, 22.0 ],
-					"text" : "loadmess 120"
+					"patching_rect" : [ -26.666667461395264, 981.333362579345703, 77.0, 22.0 ],
+					"text" : "loadmess 55"
 				}
 
 			}
@@ -1570,7 +1582,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 0.0, 0.0, 0, 140.151516957716495, 2000.0, 2, 553.191489361702111, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 0.0, 0.0, 0, 117.424244230443776, 1977.010636494078199, 2, 412.878789684989215, 0.0, 0 ],
 					"clickadd" : 0,
 					"id" : "obj-143",
 					"maxclass" : "function",
@@ -2602,7 +2614,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 0.0, 0.0, 0, 0.0, 365.0, 2, 558.510638297872333, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 0.0, 0.0, 0, 151.515153321352869, 365.0, 2, 558.510638297872333, 0.0, 0 ],
 					"clickadd" : 0,
 					"id" : "obj-68",
 					"maxclass" : "function",
@@ -3120,6 +3132,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 124.5, 1117.5, 178.5, 1117.5, 178.5, 1027.5, 195.5, 1027.5 ],
+					"order" : 0,
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -3128,6 +3141,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-154", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 1 ],
+					"order" : 1,
+					"source" : [ "obj-11", 1 ]
 				}
 
 			}
@@ -4715,6 +4736,7 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -4723,8 +4745,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.5
 					}
-,
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -4733,10 +4754,10 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
 ,
 				"parentstyle" : "",

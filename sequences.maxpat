@@ -37,7 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"title" : "sequences 1",
+		"title" : "sequences 2",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-34",
@@ -77,7 +77,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 34.900000631809235, -225.0, 378.0, 178.0 ],
+					"patching_rect" : [ 34.900000631809235, -262.0, 378.0, 178.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -9.0, -243.0, 410.0, 243.0 ],
 					"viewvisibility" : 1
@@ -1037,8 +1037,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1065,9 +1065,9 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
+					"fontname" : [ "Ableton Sans Light Regular" ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ],
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 ,
@@ -1075,7 +1075,7 @@
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.92, 0.97, 0.833, 1.0 ]
+		"bgcolor" : [ 0.843, 0.938, 0.887, 1.0 ]
 	}
 
 }
