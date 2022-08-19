@@ -37,7 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"title" : "sequences 2",
+		"title" : "sequences 1",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-34",
@@ -78,8 +78,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 34.900000631809235, -262.0, 378.0, 178.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -9.0, -243.0, 410.0, 243.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1047,6 +1045,7 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -1055,8 +1054,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.5
 					}
-,
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -1066,16 +1064,16 @@
 				"name" : "tap-dark",
 				"default" : 				{
 					"fontname" : [ "Ableton Sans Light Regular" ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.843, 0.938, 0.887, 1.0 ]
+		"bgcolor" : [ 0.914, 0.897, 0.93, 1.0 ]
 	}
 
 }

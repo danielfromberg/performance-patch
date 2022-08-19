@@ -1417,7 +1417,7 @@
 					"numoutlets" : 13,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 1262.323881004533177, 800.486985064231931, 128.0, 128.0 ],
+					"patching_rect" : [ 1257.323881004533177, 840.486985064231931, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.699999928474426, 0.200004875659943, 498.0, 539.894477414186895 ],
 					"varname" : "sam[1]",
@@ -2622,7 +2622,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2020.404801658221913, 1979.200040102005005, 179.0, 22.0 ],
-					"text" : "9 vocoder 13 494"
+					"text" : "11 three 102 487"
 				}
 
 			}
@@ -2799,7 +2799,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 331.333329200744629, 1950.866634845733643, 50.0, 22.0 ],
-					"text" : "0 6 1"
+					"text" : "2 7 1"
 				}
 
 			}
@@ -2895,7 +2895,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1378.546103226755349, 764.79999977350235, 151.0, 22.0 ],
+					"patching_rect" : [ 1355.101658782311006, 765.79999977350235, 151.0, 22.0 ],
 					"text" : "receive #0_param_4"
 				}
 
@@ -3779,8 +3779,8 @@
 					"numinlets" : 12,
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 2097.732437318652046, 1614.320354378902493, 498.0, 22.0 ],
-					"text" : "route adc parametric reverbb drums pitch-shift TapSampler delayyyy EQ vocoder eight three"
+					"patching_rect" : [ 2097.732437318652046, 1614.320354378902493, 519.0, 22.0 ],
+					"text" : "route reverb parametric modverb drums pitch-shift TapSampler delayyyy EQ vocoder eight three"
 				}
 
 			}
@@ -4104,7 +4104,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1267.666670203208923, 924.333333969116211, 144.0, 22.0 ],
+					"patching_rect" : [ 1262.666670203208923, 964.333333969116211, 144.0, 22.0 ],
 					"text" : "send~ #0_from_6R"
 				}
 
@@ -4119,7 +4119,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1244.0, 948.333333969116211, 142.0, 22.0 ],
+					"patching_rect" : [ 1239.0, 988.333333969116211, 142.0, 22.0 ],
 					"text" : "send~ #0_from_6L"
 				}
 
@@ -6396,7 +6396,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 176.0, 529.0, 50.0, 22.0 ],
-									"text" : "0 6 1"
+									"text" : "2 7 1"
 								}
 
 							}
@@ -8293,7 +8293,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 347.75, 617.0, 52.0, 76.0 ],
-									"text" : "drawsprite TapSamplerX 170 356"
+									"text" : "drawsprite modverbX 121 412"
 								}
 
 							}
@@ -8306,7 +8306,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 261.75, 617.0, 36.0, 89.0 ],
-									"text" : "hidesprite TapSamplerX"
+									"text" : "hidesprite pitch-shiftX"
 								}
 
 							}
@@ -9642,12 +9642,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-2",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 305.0, 462.0, 40.0, 49.0 ],
-													"text" : "adc"
+													"text" : "pitch-shift"
 												}
 
 											}
@@ -11412,7 +11413,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-341", 11 ],
-					"midpoints" : [ 1299.073881004533177, 1051.9000363945961, 284.167317177425787, 1051.9000363945961 ],
+					"midpoints" : [ 1294.073881004533177, 1051.9000363945961, 284.167317177425787, 1051.9000363945961 ],
 					"source" : [ "obj-128", 3 ]
 				}
 
@@ -11420,7 +11421,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-341", 10 ],
-					"midpoints" : [ 1289.99054767119992, 1051.9000363945961, 272.42818674264322, 1051.9000363945961 ],
+					"midpoints" : [ 1284.99054767119992, 1051.9000363945961, 272.42818674264322, 1051.9000363945961 ],
 					"source" : [ "obj-128", 2 ]
 				}
 
@@ -12924,7 +12925,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-128", 12 ],
-					"midpoints" : [ 1352.166687548160553, 587.166677117347717, 1380.823881004533177, 587.166677117347717 ],
+					"midpoints" : [ 1352.166687548160553, 587.166677117347717, 1375.823881004533177, 587.166677117347717 ],
 					"order" : 1,
 					"source" : [ "obj-340", 2 ]
 				}
@@ -12933,7 +12934,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-128", 11 ],
-					"midpoints" : [ 1328.166687548160553, 396.0, 1584.0, 396.0, 1584.0, 636.0, 1605.0, 636.0, 1605.0, 660.0, 1611.0, 660.0, 1611.0, 789.0, 1371.74054767119992, 789.0 ],
+					"midpoints" : [ 1328.166687548160553, 396.0, 1584.0, 396.0, 1584.0, 636.0, 1605.0, 636.0, 1605.0, 660.0, 1611.0, 660.0, 1611.0, 789.0, 1366.74054767119992, 789.0 ],
 					"order" : 1,
 					"source" : [ "obj-340", 1 ]
 				}
@@ -14084,8 +14085,8 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
@@ -14094,7 +14095,7 @@
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.906, 0.803, 0.819, 1.0 ]
+		"bgcolor" : [ 0.91, 0.99, 0.957, 1.0 ]
 	}
 
 }
