@@ -1675,14 +1675,14 @@
 					"presentation_rect" : [ 318.690928851076933, -115.060145716997056, 49.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 9,
 							"parameter_units" : "%i %",
 							"parameter_longname" : "live.numbox",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 100.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "live.numbox"
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -1785,9 +1785,10 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "pass.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 4,
+					"numoutlets" : 3,
 					"offset" : [ -43.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "bang" ],
 					"patching_rect" : [ 11.800007104873544, 62.958067412532841, 103.952373385429382, 49.142856776714325 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 170.35759512037933, 37.769914133388568, 66.999997138977051, 47.99999988079071 ],
@@ -2426,6 +2427,7 @@
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_linknames" : 1,
@@ -2433,8 +2435,7 @@
 							"parameter_longname" : "live.gain~[17]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Gain"
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -2462,6 +2463,7 @@
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_linknames" : 1,
@@ -2469,8 +2471,7 @@
 							"parameter_longname" : "live.gain~[30]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Gain"
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -2688,7 +2689,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "int", "" ],
-					"patching_rect" : [ 5.862507104873544, 246.886178083856066, 375.0, 529.5 ],
+					"patching_rect" : [ 5.862507104873544, 246.886178083856066, 281.666663885116577, 522.833333134651184 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 99.436580879528037, 375.0, 627.833335280418396 ]
 				}
@@ -3157,7 +3158,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-187", 4 ],
-					"midpoints" : [ 371.362507104873544, 843.109757397392968, 181.612506866454964, 843.109757397392968 ],
+					"midpoints" : [ 278.029170989990121, 843.109757397392968, 181.612506866454964, 843.109757397392968 ],
 					"source" : [ "obj-9", 3 ]
 				}
 
@@ -3165,7 +3166,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-187", 3 ],
-					"midpoints" : [ 252.695840438206886, 797.77642271302102, 136.175006866454964, 797.77642271302102 ],
+					"midpoints" : [ 190.473616361617928, 797.77642271302102, 136.175006866454964, 797.77642271302102 ],
 					"source" : [ "obj-9", 2 ]
 				}
 
@@ -3194,10 +3195,138 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-148" : [ "live.gain~[30]", "Gain", 0 ],
-			"obj-20" : [ "live.gain~[17]", "Gain", 0 ],
+			"obj-187::obj-263::obj-33::obj-162" : [ "live.button[50]", "live.button", 0 ],
 			"obj-88" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-187::obj-6::obj-66" : [ "live.button[27]", "live.button", 0 ],
+			"obj-187::obj-2::obj-77" : [ "live.button[26]", "live.button", 0 ],
+			"obj-187::obj-263::obj-16::obj-32" : [ "live.button[30]", "live.button", 0 ],
+			"obj-187::obj-2::obj-58" : [ "live.button[22]", "live.button", 0 ],
+			"obj-187::obj-2::obj-69" : [ "live.button[21]", "live.button", 0 ],
+			"obj-148" : [ "live.gain~[30]", "Gain", 0 ],
+			"obj-187::obj-128::obj-1::obj-71" : [ "live.gain~[1]", "Gain", 0 ],
+			"obj-187::obj-2::obj-71" : [ "live.button[37]", "live.button", 0 ],
+			"obj-187::obj-6::obj-67" : [ "live.button[1]", "live.button", 0 ],
+			"obj-5::obj-7::obj-35" : [ "[6]", "Level", 0 ],
+			"obj-187::obj-263::obj-12::obj-111" : [ "live.button[4]", "live.button", 0 ],
+			"obj-187::obj-25::obj-2::obj-39::obj-51" : [ "pictctrl[42]", "pictctrl[2]", 0 ],
+			"obj-187::obj-2::obj-66" : [ "live.button[36]", "live.button", 0 ],
+			"obj-187::obj-263::obj-12::obj-112" : [ "live.button[5]", "live.button", 0 ],
+			"obj-187::obj-6::obj-63" : [ "live.button[2]", "live.button", 0 ],
+			"obj-187::obj-2::obj-79" : [ "live.button[24]", "live.button", 0 ],
+			"obj-187::obj-263::obj-12::obj-48" : [ "live.button[3]", "live.button", 0 ],
+			"obj-187::obj-26::obj-16" : [ "live.gain~[37]", "live.gain~[1]", 0 ],
+			"obj-187::obj-2::obj-63" : [ "live.button[40]", "live.button", 0 ],
+			"obj-187::obj-6::obj-64" : [ "live.button[49]", "live.button", 0 ],
+			"obj-187::obj-263::obj-16::obj-111" : [ "live.button[35]", "live.button", 0 ],
+			"obj-187::obj-263::obj-33::obj-161" : [ "live.button[47]", "live.button", 0 ],
+			"obj-187::obj-25::obj-2::obj-39::obj-37" : [ "smoothing[4]", "smoothing", 0 ],
+			"obj-187::obj-25::obj-2::obj-39::obj-15" : [ "pictctrl[41]", "pictctrl[2]", 0 ],
+			"obj-187::obj-25::obj-2::obj-5" : [ "live.gain~[4]", "Gain", 0 ],
+			"obj-187::obj-2::obj-76" : [ "live.button[25]", "live.button", 0 ],
+			"obj-187::obj-263::obj-33::obj-111" : [ "live.button[48]", "live.button", 0 ],
+			"obj-187::obj-263::obj-33::obj-112" : [ "live.button[51]", "live.button", 0 ],
+			"obj-187::obj-381::obj-71" : [ "live.gain~[7]", "Gain", 0 ],
+			"obj-187::obj-2::obj-68" : [ "live.button[19]", "live.button", 0 ],
+			"obj-187::obj-263::obj-33::obj-32" : [ "live.button[6]", "live.button", 0 ],
+			"obj-20" : [ "live.gain~[17]", "Gain", 0 ],
+			"obj-187::obj-263::obj-16::obj-7" : [ "live.step[1]", "live.step[2]", 0 ],
+			"obj-187::obj-263::obj-16::obj-162" : [ "live.button[34]", "live.button", 0 ],
+			"obj-5::obj-10::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-187::obj-54::obj-138" : [ "live.button[13]", "live.button", 0 ],
+			"obj-187::obj-2::obj-65" : [ "live.button[17]", "live.button", 0 ],
+			"obj-187::obj-263::obj-12::obj-162" : [ "live.button", "live.button", 0 ],
+			"obj-187::obj-25::obj-2::obj-39::obj-10" : [ "range[3]", "range", 0 ],
+			"obj-187::obj-2::obj-78" : [ "live.button[42]", "live.button", 0 ],
+			"obj-187::obj-263::obj-16::obj-161" : [ "live.button[31]", "live.button", 0 ],
+			"obj-187::obj-25::obj-2::obj-39::obj-5" : [ "pictctrl[43]", "pictctrl[1]", 0 ],
+			"obj-187::obj-381::obj-167" : [ "live.gain~[8]", "Gain", 0 ],
+			"obj-187::obj-6::obj-68" : [ "live.button[46]", "live.button", 0 ],
+			"obj-187::obj-128::obj-15::obj-71" : [ "live.gain~[3]", "Gain", 0 ],
+			"obj-187::obj-6::obj-60" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-187::obj-263::obj-16::obj-48" : [ "live.button[33]", "live.button", 0 ],
+			"obj-187::obj-25::obj-2::obj-39::obj-12" : [ "pictctrl[44]", "pictctrl", 0 ],
+			"obj-187::obj-6::obj-69" : [ "live.button[43]", "live.button", 0 ],
+			"obj-5::obj-10::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-187::obj-2::obj-60" : [ "live.button[38]", "live.button", 0 ],
+			"obj-187::obj-263::obj-33::obj-7" : [ "live.step[8]", "live.step[2]", 0 ],
+			"obj-5::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
+			"obj-187::obj-2::obj-72" : [ "live.button[39]", "live.button", 0 ],
+			"obj-187::obj-263::obj-12::obj-7" : [ "live.step[6]", "live.step[2]", 0 ],
+			"obj-187::obj-263::obj-12::obj-161" : [ "live.button[29]", "live.button", 0 ],
+			"obj-187::obj-25::obj-4" : [ "live.gain~[6]", "Gain", 0 ],
+			"obj-187::obj-128::obj-1::obj-167" : [ "live.gain~", "Gain", 0 ],
+			"obj-187::obj-54::obj-63" : [ "live.button[12]", "live.button", 0 ],
+			"obj-5::obj-32" : [ "live.gain~[16]", "Gain", 0 ],
+			"obj-187::obj-2::obj-67" : [ "live.button[20]", "live.button", 0 ],
+			"obj-187::obj-128::obj-15::obj-167" : [ "live.gain~[2]", "Gain", 0 ],
+			"obj-187::obj-263::obj-16::obj-112" : [ "live.button[32]", "live.button", 0 ],
+			"obj-187::obj-25::obj-2::obj-36" : [ "live.gain~[26]", "live.gain~[26]", 0 ],
+			"obj-187::obj-2::obj-86" : [ "live.button[18]", "live.button", 0 ],
+			"obj-187::obj-263::obj-33::obj-48" : [ "live.button[7]", "live.button", 0 ],
+			"obj-187::obj-2::obj-64" : [ "live.button[41]", "live.button", 0 ],
+			"obj-187::obj-6::obj-65" : [ "live.text[2]", "live.text[3]", 0 ],
+			"obj-187::obj-263::obj-12::obj-32" : [ "live.button[28]", "live.button", 0 ],
+			"obj-187::obj-333" : [ "live.gain~[10]", "live.gain~[4]", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-187::obj-263::obj-16::obj-32" : 				{
+					"parameter_longname" : "live.button[30]"
+				}
+,
+				"obj-5::obj-7::obj-35" : 				{
+					"parameter_longname" : "[6]"
+				}
+,
+				"obj-187::obj-263::obj-16::obj-111" : 				{
+					"parameter_longname" : "live.button[35]"
+				}
+,
+				"obj-187::obj-25::obj-2::obj-5" : 				{
+					"parameter_longname" : "live.gain~[4]"
+				}
+,
+				"obj-187::obj-381::obj-71" : 				{
+					"parameter_longname" : "live.gain~[7]"
+				}
+,
+				"obj-187::obj-263::obj-16::obj-162" : 				{
+					"parameter_longname" : "live.button[34]"
+				}
+,
+				"obj-187::obj-263::obj-16::obj-161" : 				{
+					"parameter_longname" : "live.button[31]"
+				}
+,
+				"obj-187::obj-381::obj-167" : 				{
+					"parameter_longname" : "live.gain~[8]"
+				}
+,
+				"obj-187::obj-128::obj-15::obj-71" : 				{
+					"parameter_longname" : "live.gain~[3]"
+				}
+,
+				"obj-187::obj-263::obj-16::obj-48" : 				{
+					"parameter_longname" : "live.button[33]"
+				}
+,
+				"obj-5::obj-7::obj-21::obj-6" : 				{
+					"parameter_longname" : "live.tab[4]"
+				}
+,
+				"obj-187::obj-128::obj-15::obj-167" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-187::obj-263::obj-16::obj-112" : 				{
+					"parameter_longname" : "live.button[32]"
+				}
+,
+				"obj-187::obj-263::obj-33::obj-48" : 				{
+					"parameter_longname" : "live.button[7]"
+				}
 
 			}
 
@@ -3205,7 +3334,305 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MrMatrix.maxpat",
-				"bootpath" : "~/Desktop",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "drum_machine.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sequencer.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "arturia_beatstep__black_edition__1_1.jpg",
+				"bootpath" : "~/Documents/performance-patch/images",
+				"patcherrelativepath" : "./images",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vocoder.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "classic-vocoder.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/classic-vocoder-folder/lib",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/effects/classic-vocoder-folder/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "classic-channel.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/classic-vocoder-folder/lib",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/effects/classic-vocoder-folder/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pattr-helper.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/utilities",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "start",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pitch-shift.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transratio.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pitch-shiftt.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transposer.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gadget.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "keyboard.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mpk-mini.png",
+				"bootpath" : "~/Documents/performance-patch/images",
+				"patcherrelativepath" : "./images",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "potargreen.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delayyyy.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "crossfader.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sequences.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "liveseq.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sequencer-module.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fxseq.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multisamp.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TapSampler.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfmodes.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfknob.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sampler_speed.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "amp-mod.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vibrato.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lcxl.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "launchcontrol.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "eight.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "samp_strip.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sub_mod",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MC-1",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "EQ.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reverbb.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "th.yafr.freeze~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/th.yafr-mods/patchers",
+				"patcherrelativepath" : "../Max 8/Packages/th.yafr-mods/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_p-freeze.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/th.yafr-mods/patchers",
+				"patcherrelativepath" : "../Max 8/Packages/th.yafr-mods/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "parametric.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "three.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "303poly.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minimal_recorder.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3214,6 +3641,122 @@
 				"name" : "interfacecolor.js",
 				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ReverbWorld.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ReverbMe.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yafr2.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.smoothr.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "data-handler-L.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-object.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vizzie-global.js",
+				"bootpath" : "C74:/packages/Vizzie/code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "data-handler.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "polymatrix.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pulse.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "midi-sim.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pass.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "colorSwap.maxpat",
+				"bootpath" : "~/Documents/performance-patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "demosound.maxpat",
+				"bootpath" : "C74:/help/msp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "saw.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],
@@ -3276,8 +3819,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3304,10 +3847,10 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
 					"fontname" : [ "Ableton Sans Light Regular" ],
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

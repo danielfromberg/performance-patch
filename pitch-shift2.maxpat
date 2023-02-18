@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 268.0, 106.0, 1245.0, 734.0 ],
+		"rect" : [ 161.0, 135.0, 488.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -659,6 +659,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-89",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -759,7 +760,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 373.0, 327.0, 193.0, 22.0 ],
-					"text" : "if $i1>=2 then bang else out2 bang"
+					"text" : "if $i1==2 then bang else out2 bang"
 				}
 
 			}
@@ -860,7 +861,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 974.0, 8.0, 30.0, 30.0 ]
 				}
 
@@ -1292,7 +1293,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.199993073940277, 63.199998676776886, 77.0, 50.0 ],
 					"size" : 3,
-					"value" : 0
+					"value" : 2
 				}
 
 			}
@@ -1326,14 +1327,16 @@
 				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "kslider",
+					"mode" : 1,
 					"numinlets" : 2,
 					"numoutlets" : 2,
+					"offset" : 0,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 129.0, 74.000000999999997, 252.0, 34.0 ],
+					"patching_rect" : [ 129.0, 74.000000999999997, 49.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 3.399998724460602, 468.0, 57.0 ],
-					"range" : 61
+					"presentation_rect" : [ 1.0, 3.399998724460602, 91.0, 57.0 ],
+					"range" : 12
 				}
 
 			}
@@ -1345,8 +1348,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 22.0, 201.199999928474426, 106.0, 22.0 ],
-					"text" : "poly~ pitch-shiftt 1",
-					"varname" : "poly~"
+					"text" : "poly~ pitch-shiftt 1"
 				}
 
 			}
@@ -2227,7 +2229,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-66", 1 ]
 				}
 
@@ -2251,7 +2253,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-66", 1 ]
 				}
 
@@ -2518,8 +2520,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2528,7 +2530,6 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.0, 0.992156862745098, 0.992156862745098, 0.11 ],
@@ -2537,7 +2538,8 @@
 						"angle" : 270.0,
 						"proportion" : 0.5
 					}
-
+,
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2546,10 +2548,10 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ]
+					"fontname" : [ "Ableton Sans Light Regular" ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

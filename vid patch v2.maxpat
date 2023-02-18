@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1372.0, 781.0 ],
+		"rect" : [ 35.0, 79.0, 1372.0, 781.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,41 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 941.60001403093338, 144.800002157688141, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 532.800000250339508, 554.700006544589996, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 912.800013601779938, 111.200001657009125, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 396.0, 520.0, 50.0, 22.0 ]
+					"patching_rect" : [ 396.0, 520.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 225.599997460842133, 19.999992549419403, 50.0, 22.0 ]
 				}
 
 			}
@@ -451,7 +479,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 123.527093815360786, 712.765602735626203, 134.208347948354003, 22.0 ],
-					"text" : "1. 0. 0. 1."
+					"text" : "0.944882 0. 0. 0."
 				}
 
 			}
@@ -623,7 +651,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -632,7 +659,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 100.0, 40.0, 30.0, 30.0 ]
 								}
 
@@ -940,7 +967,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 495.0, 513.5, 49.0, 35.0 ]
+					"patching_rect" : [ 495.0, 513.5, 49.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 225.599997460842133, 85.499993622303009, 49.0, 35.0 ]
 				}
 
 			}
@@ -1184,6 +1213,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 561.166666666666629, 723.0, 677.5, 723.0 ],
 					"order" : 1,
@@ -1217,7 +1253,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"midpoints" : [ 688.5, 75.0, 513.0, 75.0, 513.0, 3.0, 222.0, 3.0, 222.0, 150.0, 18.5, 150.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -1277,6 +1313,13 @@
 					"midpoints" : [ 561.166666666666629, 351.0, 565.5, 351.0 ],
 					"order" : 1,
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 1 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -1588,6 +1631,7 @@
 			"obj-20::obj-7" : [ "range[4]", "range", 0 ],
 			"obj-15::obj-50" : [ "slide up", "slide up", 0 ],
 			"obj-1::obj-1::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-2::obj-88" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-33::obj-79" : [ "pictctrl[74]", "pictctrl[1]", 0 ],
 			"obj-20::obj-20" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
 			"obj-12::obj-138" : [ "live.button[13]", "live.button", 0 ],
@@ -1633,6 +1677,10 @@
 ,
 				"obj-46::obj-2::obj-39::obj-37" : 				{
 					"parameter_longname" : "smoothing[5]"
+				}
+,
+				"obj-2::obj-88" : 				{
+					"parameter_longname" : "live.numbox"
 				}
 ,
 				"obj-12::obj-138" : 				{
@@ -1807,6 +1855,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "interfacecolor.js",
+				"bootpath" : "C74:/interfaces",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "new-sequencer-updated.maxpat",
 				"bootpath" : "~/Documents/performance-patch",
 				"patcherrelativepath" : ".",
@@ -1959,12 +2013,6 @@
 				"name" : "random.svg",
 				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "interfacecolor.js",
-				"bootpath" : "C74:/interfaces",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
