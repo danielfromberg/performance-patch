@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 324.0, 79.0, 1064.0, 787.0 ],
+		"rect" : [ 324.0, 79.0, 680.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -215,7 +215,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 731.0, -100.302265755832195, 30.0, 30.0 ]
 				}
 
@@ -223,13 +223,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-35",
-					"linecount" : 14,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.0, 357.0, 50.0, 196.0 ],
-					"text" : "\"Macintosh HD:/Users/danielfromberg/Desktop/synth waveforms/condensed/022 bass 2.WAV\""
+					"patching_rect" : [ 139.0, 357.0, 50.0, 183.0 ],
+					"text" : "\"Macintosh HD:/Users/danielfromberg/Desktop/synth waveforms/condensed/C4.wav\""
 				}
 
 			}
@@ -241,7 +241,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 683.0, -100.302265755832195, 30.0, 30.0 ]
 				}
 
@@ -987,7 +987,7 @@
 					"mode" : 1,
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"offset" : 48,
+					"offset" : 24,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 410.0, 30.0, 396.0, 53.0 ],
@@ -1676,8 +1676,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1705,9 +1705,9 @@
 				"name" : "tap-dark",
 				"default" : 				{
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ]
+					"fontname" : [ "Ableton Sans Light Regular" ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
