@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 268.0, 106.0, 1245.0, 734.0 ],
+		"rect" : [ 161.0, 106.0, 1245.0, 734.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -961,6 +961,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ -357.700881999999979, 220.431870000000004, 142.375549000000007, 18.468826 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 106.088134999999966, 93.199998676776886, 142.375549000000007, 18.468826 ],
 					"size" : 101.0,
 					"style" : "sliderGold"
 				}
@@ -1292,7 +1294,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.199993073940277, 63.199998676776886, 77.0, 50.0 ],
 					"size" : 3,
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -1452,7 +1454,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.0, 5.0, 30.0, 30.0 ]
 				}
 
@@ -2518,8 +2520,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2546,10 +2548,10 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
+					"fontname" : [ "Ableton Sans Light Regular" ],
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ]
+					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

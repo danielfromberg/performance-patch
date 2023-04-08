@@ -37,7 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"title" : "09 - California (2004 Remaster).flac",
+		"title" : "Guitar.wav",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-149",
@@ -7066,16 +7066,15 @@
 					"gradient" : 1,
 					"id" : "obj-359",
 					"ignoreclick" : 1,
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1351.0, 1712.599998772144318, 128.0, 35.0 ],
+					"patching_rect" : [ 1351.0, 1712.599998772144318, 128.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 9,
-					"presentation_rect" : [ 358.999996900558472, 1.616671681404114, 37.0, 129.0 ],
-					"text" : "\"09 - California (2004 Remaster).flac\""
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 358.999996900558472, 1.616671681404114, 39.0, 35.0 ],
+					"text" : "Guitar.wav"
 				}
 
 			}
@@ -7407,7 +7406,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 2062.0, -34.333355724811554, 30.0, 30.0 ]
 				}
 
@@ -7969,18 +7968,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-278",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 296.0, 1864.0, 29.5, 22.0 ],
-					"text" : "+~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-92",
 					"index" : 4,
@@ -8095,18 +8082,6 @@
 					"textcolor" : [ 0.996078431372549, 0.23921568627451, 0.23921568627451, 1.0 ],
 					"texton" : "Stereo",
 					"textoncolor" : [ 0.670588235294118, 0.309803921568627, 0.996078431372549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-212",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "int" ],
-					"patching_rect" : [ 304.0, 1773.0, 40.0, 22.0 ],
-					"text" : "sync~"
 				}
 
 			}
@@ -8788,13 +8763,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-347",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.0, 1435.936555395252071, 73.0, 49.0 ],
-					"text" : "171588 231836 231836"
+					"patching_rect" : [ 704.0, 1435.936555395252071, 73.0, 76.0 ],
+					"text" : "92868 262106 -9223372036854775808"
 				}
 
 			}
@@ -8938,6 +8913,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-15",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -8966,6 +8942,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-31",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -10825,15 +10802,15 @@
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[38]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
-							"parameter_linknames" : 1
+							"parameter_linknames" : 1,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -10874,7 +10851,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1028.466670131683259, 828.499998986721266, 100.0, 22.0 ],
-					"text" : "231836.674688"
+					"text" : "262106.018139"
 				}
 
 			}
@@ -11976,15 +11953,15 @@
 					"prototypename" : "M4L.live.gain~.H.extended",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[37]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 30.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
-							"parameter_linknames" : 1
+							"parameter_linknames" : 1,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~[1]"
 						}
 
 					}
@@ -12109,7 +12086,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 265.352418530551404, 1035.653175567177641, 215.0, 30.0 ],
-					"text" : "171588.24147"
+					"text" : "92868.664631"
 				}
 
 			}
@@ -12539,6 +12516,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-22",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -12553,7 +12531,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-21",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -13038,11 +13016,11 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 231836.674687969003571, "ms" ],
+						"loopend" : [ 262106.018138929357519, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "extremestretch",
-						"originallength" : [ 1835.642379721097541, "ticks" ],
-						"originaltempo" : 0.989770956787977,
+						"originallength" : [ 475.090054169914879, "ticks" ],
+						"originaltempo" : 0.226582076055372,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "better",
@@ -16708,15 +16686,15 @@
 				"default" : 				{
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ]
+					"fontname" : [ "Ableton Sans Light Regular" ],
+					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.97, 0.81, 0.827, 1.0 ]
+		"bgcolor" : [ 0.848, 0.895, 0.879, 1.0 ]
 	}
 
 }
